@@ -1,0 +1,61 @@
+Profiles:
+    TestOrgsOrdererGenesis:
+        Orderer:
+            <<: *OrdererDefaults
+            Organizations:
+                - *OrdererOrg
+        Consortiums:
+            SampleConsortium:
+                Organizations:
+                    - *gyl_org1
+                    - *gyl_org2
+                    - *gyl_org3
+    TestOrgsChannel:
+        Consortium: SampleConsortium
+        Application:
+            <<: *ApplicationDefaults
+            Organizations:
+                - *gyl_org1
+                - *gyl_org2
+                - *gyl_org3
+Organizations:
+    - &OrdererOrg
+        Name: OrdererOrg
+        ID: OrdererMSP
+        MSPDir: ./certs/ordererOrganizations/gyl.com/msp
+    - &gyl_org1
+        Name: GylOrg1MSP
+        ID: GylOrg1MSP
+        MSPDir: ./certs/peerOrganizations/org1.gyl.com/msp
+        AnchorPeers:
+            - Host: peer0.org1.gyl.com
+              Port: 7051
+    - &gyl_org2
+        Name: GylOrg2MSP
+        ID: GylOrg2MSP
+        MSPDir: ./certs/peerOrganizations/org2.gyl.com/msp
+        AnchorPeers:
+            - Host: peer0.org2.gyl.com
+              Port: 7051
+    - &gyl_org3
+        Name: GylOrg3MSP
+        ID: GylOrg3MSP
+        MSPDir: ./certs/peerOrganizations/org3.gyl.com/msp
+        AnchorPeers:
+            - Host: peer0.org3.gyl.com
+              Port: 7051
+Orderer: &OrdererDefaults
+    OrdererType: kafka
+    Addresses:
+        - orderer.gyl.com:7050
+    BatchTimeout: 2s
+    BatchSize:
+        MaxMessageCount: 10
+        AbsoluteMaxBytes: 99 MB
+        PreferredMaxBytes: 512 KB
+    Kafka:
+        Brokers:
+            - 127.0.0.1:9092
+    Organizations:
+Application: &ApplicationDefaults
+    Organizations:

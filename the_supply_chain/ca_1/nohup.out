@@ -1,0 +1,13 @@
+2018/11/28 15:39:04 [INFO] Configuration file location: /home/dc2-user/kongli/gyl/ca_1/fabric-ca-server-config.yaml
+2018/11/28 15:39:04 [INFO] Starting server in home directory: /home/dc2-user/kongli/gyl/ca_1
+2018/11/28 15:39:04 [INFO] Server Version: 1.3.1-snapshot-4f6586e
+2018/11/28 15:39:04 [INFO] Server Levels: &{Identity:1 Affiliation:1 Certificate:1 Credential:1 RAInfo:1 Nonce:1}
+2018/11/28 15:39:04 [INFO] The CA key and certificate files already exist
+2018/11/28 15:39:04 [INFO] Key file location: /home/dc2-user/kongli/gyl/ca_1/ca/f65674c4a9796464a264f4acc55f3386f0f0ea1359e292785f0d3fd4dc772f7b_sk
+2018/11/28 15:39:04 [INFO] Certificate file location: /home/dc2-user/kongli/gyl/ca_1/ca/ca.org1.gyl.com-cert.pem
+2018/11/28 15:39:04 [INFO] Initialized sqlite3 database at /home/dc2-user/kongli/gyl/ca_1/fabric-ca-server.db
+2018/11/28 15:39:04 [INFO] The issuer key was successfully stored. The public key is at: /home/dc2-user/kongli/gyl/ca_1/IssuerPublicKey, secret key is at: /home/dc2-user/kongli/gyl/ca_1/msp/keystore/IssuerSecretKey
+2018/11/28 15:39:04 [INFO] Idemix issuer revocation public and secret keys were generated for CA 'ca-org1'
+2018/11/28 15:39:04 [INFO] The revocation key was successfully stored. The public key is at: /home/dc2-user/kongli/gyl/ca_1/IssuerRevocationPublicKey, private key is at: /home/dc2-user/kongli/gyl/ca_1/msp/keystore/IssuerRevocationPrivateKey
+2018/11/28 15:39:04 [INFO] Home directory for default CA: /home/dc2-user/kongli/gyl/ca_1
+2018/11/28 15:39:04 [INFO] Listening on http://0.0.0.0:7054

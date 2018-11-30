@@ -1,0 +1,41 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+127.0.0.1 10-254-186-164
+10.254.186.164   cli.alcor.com
+10.254.186.164    kafka.alcor.com
+10.254.186.164   ca.alcor.com
+10.254.186.164   explorer.alcor.com
+10.254.186.164    orderer.alcor.com
+10.254.207.154   peer0.org1.alcor.com
+10.254.207.154   peer1.org1.alcor.com
+10.254.247.165   peer0.org2.alcor.com
+10.254.247.165   peer1.org2.alcor.com
+10.254.186.164 orderer.example.com
+10.254.186.164 peer0.org1.example.com
+10.254.247.165 peer1.org1.example.com
+10.254.207.154 peer0.org2.example.com
+10.254.186.164 ca.org1.example.com
+10.254.186.164 ca.org2.example.com
+
+10.254.186.164 orderer0.member1.example.com
+10.254.186.164 peer0.member1.example.com
+10.254.247.165 peer1.member1.example.com
+10.254.207.154 peer0.member2.example.com
+
+10.254.186.164 orderer.gyl.com
+10.254.186.164 peer0.org1.gyl.com
+10.254.186.164 peer1.org1.gyl.com
+10.254.186.164 peer2.org1.gyl.com
+10.254.186.164 peer3.org1.gyl.com
+
+10.254.247.165 peer0.org2.gyl.com
+10.254.247.165 peer1.org2.gyl.com
+10.254.247.165 peer2.org2.gyl.com
+10.254.247.165 peer3.org2.gyl.com
+
+10.254.207.154 peer0.org3.gyl.com
+10.254.207.154 peer1.org3.gyl.com
+10.254.207.154 peer2.org3.gyl.com
+10.254.207.154 peer3.org3.gyl.com
+
+10.254.186.164 orderer.qkl.com

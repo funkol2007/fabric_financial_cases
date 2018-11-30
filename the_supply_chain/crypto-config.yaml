@@ -1,0 +1,24 @@
+OrdererOrgs:
+  - Name: Orderer
+    Domain: gyl.com
+    Specs:
+      - Hostname: orderer
+PeerOrgs:
+  - Name: gyl_org1
+    Domain: org1.gyl.com
+    Template:
+      Count: 3
+    Users:
+      Count: 4
+  - Name: gyl_org2
+    Domain: org2.gyl.com
+    Template:
+      Count: 3
+    Users:
+      Count: 4
+  - Name: gyl_org3
+    Domain: org3.gyl.com
+    Template:
+      Count: 4
+    Users:
+      Count: 4

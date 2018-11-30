@@ -1,0 +1,24 @@
+{
+  "name": "fabric-sdk-node-study",
+  "version": "0.0.1",
+  "repository": "fabric-sdk-node-study",
+  "main": "main.js",
+  "keywords": [
+    "v1.1 fabric nodesdk sample",
+    "alpha based nodesdk sample app"
+  ],
+  "engines": {
+    "node": ">=8.10.0",
+    "npm": ">=5.6.0"
+  },
+  "dependencies": {
+    "EventHub": "^1.2.4",
+    "co": "^4.6.0",
+    "express": "^4.16.4",
+    "fabric-ca-client": "^1.1.0",
+    "fabric-client": "^1.1.0",
+    "grpc": "^1.10.1",
+    "log4js": "^3.0.6"
+  },
+  "license": "Apache-2.0"
+}
